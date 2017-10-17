@@ -1,0 +1,28 @@
+table {
+    border-collapse: separate;
+    margin: 0 auto;
+}
+td {
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: white;
+}
+ .province {
+  background-color: grey;
+  cursor: pointer;
+
+ }
+ .capital {
+  border-style: solid;
+  border-color: grey;
+ }
+ .main_capital {
+  border-style: solid;
+  border-color: black;
+ }
+ .unclickable {
+  pointer-events: none;
+}
